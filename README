@@ -1,0 +1,31 @@
+# JAGS wfComboPack module
+
+The JAGS wfComboPack module is an extension for JAGS that implements 7
+deterministic functions representing different decision strategies:
+
+  - Take-the-best (TTB)
+  - TALLY
+  - TALLYk
+  - Weighted Additive (WADD)
+  - kReason
+  - randomWalk
+  - generalAccumulator
+
+
+### Take-the-best (TTB)
+
+`TTB` returns a two-choice decision based on the Take-The-Best model
+
+#### Usage
+```cpp
+TTB(stimA, stimB, s)
+```
+
+#### Arguments (3)
+* **stimA:** a vector that for a set of cues defines whether a cue is present for *stimulus A* yes (coded as **1**), or no (coded as **0**)
+* **stimB:** a vector that for a set of cues defines whether a cue is present for *stimulus B* yes (coded as **1**), or no (coded as **0**)
+* **s:** the order of the validities in ascending order (index highest validity first, index lowest validity last)
+
+
+##### Output (2)
+* **choice:** **1** if *stimulus A* is chosen, **0** if *stimulus B* is chosen, and **0.5** if neither is chosen
