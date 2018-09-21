@@ -11,7 +11,7 @@ deterministic functions representing different decision strategies:
   - Random Walk
   - General Accumulator
 
-Documentation on every function can be found in the [wiki](https://github.com/raviselker/jags-wfComboPack/wiki/Documentation-functions)
+Documentation on every function can be found in the [wiki](https://github.com/raviselker/jags-wfComboPack/wiki/Documentation-functions), and examples of how to use the module can be found over [here](https://github.com/raviselker/wfComboPack).
 
 ## Build instructions
 
