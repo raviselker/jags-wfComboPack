@@ -31,3 +31,4 @@
 /src/functions/Makefile
 /stamp-h1
 /config.h.in~
+*.tar.gz
